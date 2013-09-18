@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+help () {
+    echo "bs      build stuff then show it";
+    echo "build   build stuff with cabal";
+    echo "clean   clean haskell and site";
+    echo "show    show stuff with hakyll";
+}
+
+clean () {
+    cabal clean;
+    ./site clean;
+}
+
+build () {
+    cabal configure;
+    cabal build;
+}
+
+show () {
+    ./site rebuild;
+    ./site preview;
+}
+
+deploy () {
+    cabal configure;
+    cabal build;
+    git push origin master;
+}
+
+case "$1" in
+    build )
+        build;;
+    show )
+        show;;
+    clean )
+        clean;;
+    bs )
+        clean;
+        build;
+        if [ $? -eq 0 ]; then
+            show
+        else
+            echo -e '\e[1;31m'"[ errors occured in the build ]"
+            tput sgr0
+        fi
+        ;;
+    deploy )
+        deploy;;
+    * )
+        help;;
+esac
+

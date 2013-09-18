@@ -1,0 +1,21 @@
+name: cnulug
+version: 1.0
+synopsis: CNU Linux User's Group Homepage
+-- description:
+homepage: http://cnulug.org
+license-file: LICENSE
+author: Nathan D. Typanski
+maintainer: ntypanski@gmail.com
+-- copyright:
+category: Web
+build-type: Simple
+cabal-version: >=1.8
+
+executable site
+  main-is: site.hs
+  hs-source-dirs: src/
+  ghc-options: -O2 -Wall -threaded -o site
+  -- other-modules:
+  build-depends: base,
+                       hakyll >= 4.2.2.0 && < 5,
+                       pandoc >= 1.10.0 && < 2
