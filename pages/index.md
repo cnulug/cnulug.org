@@ -7,7 +7,7 @@ title: Home
 The Linux User Group at [Christopher Newport University](http://cnu.edu)
 is a community for people who use Linux or are interested in learning about it.
 
-We're dedicated to promoting smart and socially aware computer usage.
+We are dedicated to promoting smart and socially aware computer usage.
 This is done using the following [core goals for
 LUGs](http://www.tldp.org/HOWTO/User-Group-HOWTO-4.html):
 
@@ -16,4 +16,5 @@ LUGs](http://www.tldp.org/HOWTO/User-Group-HOWTO-4.html):
 - support
 - socializing
 
-in the technology community at CNU.
+We welcome new users and do not charge dues or discriminate about level of
+skill.

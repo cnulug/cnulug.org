@@ -2,6 +2,7 @@ $defaultColor: #302c25;
 $background: #f9f9f7;
 $tocBackground: #f8f8f8;
 $tocBorder: #eee;
+$pageborder: #5F819D;
 
 /* STYLE RESET */
 * { 
@@ -49,28 +50,35 @@ body {
         weight: normal;
         size: 1.2em;
     }
-    width: 35em;
-    line-height: 1.5em;
+    width: 38em;
+    line-height: 1.6em;
 }
 
-p {
-    margin: {
-        bottom: 0;
+#content {
+
+    a {
+        border-bottom: 1px solid $pageborder;
     }
 
-}
-
-ul, ol {
-    margin: {
-        top: 1em;
-        left: 0px;
-        bottom: 1em;
-        right: 0px;
+    p {
+        margin: {
+            bottom: 0;
+        }
+    
     }
-}
-
-p + p {
-    text-indent: 1em
+    
+    ul, ol {
+        margin: {
+            top: 0.7em;
+            left: 0;
+            bottom: 0.7em;
+            right: 0;
+        }
+    }
+    
+    p + p {
+        text-indent: 1em
+    }
 }
 
 #toc {
@@ -109,26 +117,22 @@ p + p {
 }
 
 div#header {
-    border-bottom: 0px solid #5F819D;
+    border-bottom: 1px solid $pageborder;
     margin-bottom: 30px;
-    padding: 12px 0px 12px 0px;
+    padding: 9px 0px 0px 0px;
     text-align: right;
 }
 
 div#logo {
-    a {
-        color: black;
-        float: left;
-        font: {
-            size: 18px;
-            weight: bold;
-        }
-        text-decoration: none;
+    font: {
+        style: normal;
+        weight: normal;
+        size: 1.2em;
     }
     img {
-        width: 100px;
-        display: inline;
+        width: 4em;
         float: right;
+        display: inline-block;
     }
 }
 
@@ -136,9 +140,10 @@ div#navigation {
     text-align: right;
     a {
         font: {
-            size: 16px;
+            size: 0.8em;
             weight: bold;
         }
+        border: none;
         margin-left: 16px;
         text-decoration: none;
         text-transform: lowercase;
@@ -161,6 +166,9 @@ div#footer {
     margin-top: 30px;
     padding: 12px 0px 12px 0px;
     text-align: center;
+    a {
+        border: none;
+    }
 }
 
 h1 {
@@ -185,6 +193,7 @@ div.info {
 
 a
 {
+    text-decoration: none;
     color: #2A75A9;
     :visited {
         color: #274257;

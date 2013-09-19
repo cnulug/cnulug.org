@@ -116,7 +116,6 @@ main = hakyll $ do
         compile $ do
             let indexCtx =
                     constField "title" "Home"                `mappend`
-                    modificationTimeField "modified" "%B %e, %Y" `mappend`
                     defaultContext
 
             getResourceBody
