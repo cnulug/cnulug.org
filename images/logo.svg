@@ -8,10 +8,34 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="462.76724"
    height="551.0448"
-   id="svg3004">
+   id="svg3004"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="816"
+     inkscape:window-height="764"
+     id="namedview106"
+     showgrid="false"
+     inkscape:zoom="0.5303278"
+     inkscape:cx="183.67932"
+     inkscape:cy="153.83559"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3004" />
   <metadata
      id="metadata3097">
     <rdf:RDF>
@@ -20,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -524,7 +548,7 @@
        d="m 223.627,632.24 c -22.388,-32.223 -26.754,-136.984 25.487,-201.43 25.886,-30.918 32.49,-52.465 34.531,-81.393 1.389,-32.979 -23.325,-131.442 69.883,-138.944 94.406,-7.532 89.336,85.66 88.793,134.975 -0.451,41.64 30.574,65.241 51.796,97.695 39.279,59.63 35.957,162.3 -7.399,217.872 -54.917,69.568 -101.953,39.398 -133.19,41.93 -58.493,3.202 -60.427,34.391 -129.901,-70.705 z"
        transform="matrix(1.25,0,0,1.25,185.454,-167.505)"
        id="path106"
-       style="fill:#07063c;fill-opacity:1;stroke:none" />
+       style="fill:#100d88;fill-opacity:1;stroke:none" />
     <path
        d="m 246.571,470.864 c -12.239,12.496 -44.396,69.092 4.869,105.36 17.369,12.633 -16.377,59.495 -32.005,36.308 -27.57,-41.618 -8.831,-106.941 8.315,-130.188 11.652,-16.487 29.23,-22.676 18.821,-11.48 z"
        transform="matrix(-1.67739,-0.0224516,-0.0211236,1.4709,1173.58,-293.017)"
@@ -534,7 +558,7 @@
        d="m 256.513,459.837 c -19.915,17.717 -56.176,80.091 -3.288,120.606 17.37,12.632 -15.393,52.463 -33.79,32.089 -63.963,-70.82 1.669,-152.254 24.262,-180.25 20.192,-24.347 38.078,5.752 12.816,27.555 z"
        transform="matrix(-1.67755,0,0,1.52374,1174.62,-318.082)"
        id="path111"
-       style="fill:#07063c;fill-opacity:1;stroke:#07063c;stroke-width:0.97729802;stroke-opacity:1" />
+       style="fill:#100d88;fill-opacity:1;stroke:none;stroke-width:0.97729802000000021;stroke-opacity:1" />
     <path
        d="m 399.56879,258.15753 a 58.37323,46.863022 0 1 1 -116.74646,0 58.37323,46.863022 0 1 1 116.74646,0 z"
        transform="matrix(1.26626,-0.0713667,-0.0459795,1.19574,202.143,-125.761)"
@@ -584,7 +608,7 @@
        d="m 256.513,449.72 c -17.465,28.508 -59.377,95.813 -3.288,130.723 75.569,46.355 54.173,92.711 -14.799,50.974 -97.109,-58.264 -11.825,-175.616 27.131,-220.338 44.444,-50.2 8.554,9.087 -9.044,38.641 z"
        transform="matrix(1.25,0,0,1.25,185.454,-167.505)"
        id="path109"
-       style="fill:#07063c;fill-opacity:1;stroke:#07063c;stroke-width:1.25;stroke-opacity:1" />
+       style="fill:#100d88;fill-opacity:1;stroke:none;stroke-width:1.25000000000000000;stroke-opacity:1" />
     <path
        d="m 421.481,504.727 c 0,32.412 -29.272,74.516 -79.528,74.138 -51.828,0.455 -73.949,-41.726 -73.949,-74.138 0,-32.412 34.379,-58.717 76.739,-58.717 42.359,0 76.738,26.305 76.738,58.717 z"
        transform="matrix(1.30209,0,0,1.22525,170.042,-153.557)"
@@ -634,7 +658,7 @@
        d="m 415.072,495.764 c -3.007,24.906 -35.813,76.627 -69.518,81.534 -34.26,5.336 -66.432,-34.06 -74.147,-71.114 -9.889,-41.206 22.587,-57.6 71.938,-56.627 53.301,1.654 74.121,13.891 71.727,46.207 z"
        transform="matrix(0.515584,0.215259,-0.206526,0.49467,713.3,222.559)"
        id="path136"
-       style="font-size:12px;fill:#07063c;fill-opacity:1;stroke:none" />
+       style="font-size:12px;fill:#100d88;fill-opacity:1;stroke:none" />
     <path
        d="m 415.072,495.764 c -3.007,24.906 -35.813,76.627 -69.518,81.534 -34.26,5.336 -66.432,-34.06 -74.147,-71.114 -9.889,-41.206 22.587,-57.6 71.938,-56.627 53.301,1.654 74.121,13.891 71.727,46.207 z"
        transform="matrix(0.351231,0.149463,-0.128856,0.343469,724.522,318.291)"
