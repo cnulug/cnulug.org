@@ -1,6 +1,19 @@
 ---
 title: Home
 ---
+<div id="logo">
+    <img src="images/logo.svg"></img>
+</div>
 The Linux User Group at [Christopher Newport University](http://cnu.edu)
-is dedicated to advocacy, education, support, and socializing for Linux users at
-CNU.
+is a community for people who use Linux or are interested in learning about it.
+
+We're dedicated to promoting smart and socially aware computer usage.
+This is done using the following [core goals for
+LUGs](http://www.tldp.org/HOWTO/User-Group-HOWTO-4.html):
+
+- advocacy
+- education
+- support
+- socializing
+
+in the technology community at CNU.
