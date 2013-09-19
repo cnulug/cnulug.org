@@ -133,6 +133,7 @@ getGitVersion path = shorten <$> readProcess "git" ["log", "-1", "--format=%h (%
 versionField :: String -> Context String
 versionField name = field name $ \item -> unsafeCompiler $ do
     let path = toFilePath $ itemIdentifier item
+    putStrLn path
     getGitVersion path
 
 -- Field that contains the commit hash of HEAD.
