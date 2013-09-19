@@ -22,12 +22,6 @@ show () {
     ./site preview;
 }
 
-deploy () {
-    cabal configure;
-    cabal build;
-    git push origin master;
-}
-
 case "$1" in
     build )
         build;;
