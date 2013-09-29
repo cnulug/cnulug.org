@@ -1,8 +1,11 @@
-$defaultColor: #302c25;
-$background: #f9f9f7;
+$defaultColor: #2e3436;
+$background: #eeeeec;
 $tocBackground: #f8f8f8;
 $tocBorder: #eee;
-$pageborder: #5F819D;
+$pageborder: #3465a4;
+$linkcolor: #3465a4;
+$visitedcolor: #204a87;
+$hovercolor: #729fcf;
 
 /* STYLE RESET */
 * { 
@@ -194,12 +197,12 @@ div.info {
 a
 {
     text-decoration: none;
-    color: #2A75A9;
+    color: $linkcolor;
     :visited {
-        color: #274257;
+        color: $visitedcolor;
     }
     :hover {
-        color: #7EB5D6;
+        color: $hovercolor;
     }
 }
 
