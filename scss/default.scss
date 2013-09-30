@@ -22,12 +22,6 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
     margin: 0 0 0 0;
 }
 
-h2 {
-    margin: {
-        top: 8px;
-    }
-}
-
 li, dd, blockquote {
     margin-left: 0px;
 }
@@ -182,9 +176,10 @@ h1 {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 20px;
     margin: {
-        bottom: 1em;
+        bottom: 0.8em;
+        top: 0.8em;
     }
 }
 
