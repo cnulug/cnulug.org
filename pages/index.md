@@ -35,3 +35,11 @@ We have some important goals related to CNU, however:
 If these sound like good ideas to you, please
 [join our mailing list](/mail.html)
 to get involved.
+
+## GitHub
+
+We have an [organization at GitHub](https://github.com/cnulug).
+It hosts our public documents and policies, as well as the source code
+for this website. If you have a GitHub account, then you are welcome
+to a [member](https://github.com/orgs/cnulug/teams/members) position
+over there as a badge of honor.
