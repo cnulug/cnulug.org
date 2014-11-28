@@ -1,9 +1,9 @@
 ---
 title: Home
 ---
-<div id="logo">
-    <img src="images/logo.svg"></img>
-</div>
+
+<div id="logo"><img src="images/logo.svg"></img></div>
+
 The Linux User Group at [Christopher Newport University](http://cnu.edu)
 (CNULUG) is a community for people who use Linux or 
 who are interested in learning about it.
@@ -43,3 +43,7 @@ It hosts our public documents and policies, as well as the source code
 for this website. If you have a GitHub account, then you are welcome
 to a [member](https://github.com/orgs/cnulug/teams/members) position
 over there as a badge of honor.
+
+## Wiki
+
+Our wiki may be found [over at GitHub](https://github.com/cnulug/wiki/wiki).

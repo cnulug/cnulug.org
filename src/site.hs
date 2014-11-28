@@ -35,7 +35,7 @@ tocWriterOptions = pandocWriterOptions
 --------------------------------------------------------------------------------
 
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
 
     -- put all the images in /images
     match "images/*" $ do
@@ -119,6 +119,14 @@ main = hakyll $ do
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateCompiler
+
+config :: Configuration
+config = defaultConfiguration
+    {   deployCommand = "rsync --checksum -ave 'ssh' _site/* "
+                        ++ "athen@ephesus:/srv/http/cnulug.org"
+      , inMemoryCache = True
+      , previewPort = 8080
+    }
 
 --------------------------------------------------------------------------------
 -- Git (http://vapaus.org/text/hakyll-configuration.html)
